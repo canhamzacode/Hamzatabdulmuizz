@@ -462,6 +462,9 @@ footer div.wrapper div.Social-id h3{
     }
 }
 @media screen and (max-width:660px) {
+    section.contact div.wrapper div.left ul{
+        flex-direction: column;
+    }
     section.hero{
         padding: var(--medium-padding);
     }
